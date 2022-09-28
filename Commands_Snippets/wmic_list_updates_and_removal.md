@@ -1,4 +1,4 @@
-## List installed updates
+## Listing of installed updates
 
 wmic qfe get hotfixid
 
