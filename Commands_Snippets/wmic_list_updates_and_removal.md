@@ -5,8 +5,8 @@ wmic qfe get hotfixid
 ## For deleting an update
 
 wusa /uninstall /kb:{update_id (that number)} /quiet /norestart 
-or
-C:\WINDOWS\$NtUninstallKB*{update_id (without brackets)}*$\spuninst\spuninst.exe /quiet /norestart
+or  
+C:\WINDOWS\$NtUninstallKB*{update_id (without brackets)}*$\spuninst\spuninst.exe /quiet /norestart  
 
 ## An automation for removing all would be..
 
