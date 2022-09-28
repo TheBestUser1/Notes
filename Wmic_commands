@@ -28,7 +28,7 @@ wmic baseboard list full
 
 wmic path win32_videocontroller
 
-## See windows info ##
+## See windows info
 
 wmic os list brief
 wmic os list full
