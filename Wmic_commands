@@ -1,0 +1,6 @@
+## See windows updates  ##
+
+wmic qfe get hotfixid
+
+
+
