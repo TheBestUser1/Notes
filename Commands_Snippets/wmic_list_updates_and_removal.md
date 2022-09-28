@@ -10,8 +10,8 @@ C:\WINDOWS\$NtUninstallKB*{update_id (without brackets)}*$\spuninst\spuninst.exe
 
 ## An automation for removing all would be..
 
-** wmic qfe get hotfixid >> c:\list.txt **
-** Open C:\list.txt in Notepad. (Remove the first line, it's just the title) **
-** for /f %i in ('type c:\list.txt') do echo wusa /uninstall /kb:%i /quiet /norestart >> c:\uninstall.cmd **
+**wmic qfe get hotfixid >> c:\list.txt**
+**Open C:\list.txt in Notepad. (Remove the first line, it's just the title)**
+**for /f %i in ('type c:\list.txt') do echo wusa /uninstall /kb:%i /quiet /norestart >> c:\uninstall.cmd**
 or
-** for /f %i in ('type c:\list.txt') do echo C:\WINDOWS\$NtUninstallKB%i$\spuninst\spuninst.exe /quiet /norestart >> c:\uninstall.cmd
+**for /f %i in ('type c:\list.txt') do echo C:\WINDOWS\$NtUninstallKB%i$\spuninst\spuninst.exe /quiet /norestart >> c:\uninstall.cmd**
