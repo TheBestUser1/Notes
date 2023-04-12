@@ -14,4 +14,4 @@ C:\WINDOWS\$NtUninstallKB*{update_id (without brackets)}*$\spuninst\spuninst.exe
 **Open C:\list.txt in Notepad. (Remove the first line, it's just the title)**  
 **for /f %i in ('type c:\list.txt') do echo wusa /uninstall /kb:%i /quiet /norestart >> c:\uninstall.cmd**  
 or  
-**for /f %i in ('type c:\list.txt') do echo C:\WINDOWS\$NtUninstallKB%i$\spuninst\spuninst.exe /quiet /norestart >> c:\uninstall.cmd**  
+**for /f %i in ('type c:\list.txt') do echo C:\WINDOWS\\$NtUninstall%i$\spuninst\spuninst.exe /quiet /norestart >> c:\uninstall.cmd**  
